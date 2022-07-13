@@ -1,0 +1,49 @@
+name: todo
+description: A new Flutter project.
+
+publish_to: none
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+
+  #Dart packages
+  equatable: ^2.0.3
+  get_it: 7.2.0
+  intl: ^0.17.0
+
+  #Flutter packages
+  bot_toast: ^4.0.1
+  flutter_bloc: ^7.3.0
+  hive: ^2.0.4
+  hive_flutter: ^1.1.0
+
+  #Platform plugins
+  flutter_image_compress: ^1.0.0                     # Android, iOS
+  flutter_local_notifications: ^8.2.0                # Android, iOS, Linux, MacOs
+  image_picker: ^0.8.4+2                             # Android, iOS, Web
+  path_provider: ^2.0.2                              # Android, iOS, Linux, MacOS, Windows
+  shared_preferences: ^2.0.8                         # Android, iOS, Linux, MacOS, Web, Windows
+
+dev_dependencies:
+  build_runner: ^2.1.2
+  hive_generator: ^1.1.0
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+
+  fonts:
+    - family: Century Gothic
+      fonts:
+        - asset: fonts/gothic.ttf
+        - asset: fonts/gothic_bold.ttf
+          weight: 700
